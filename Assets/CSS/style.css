@@ -1,0 +1,72 @@
+:root {
+    --body-font: 'Dosis', 'Poppins', sans-serif;
+    --color-blue-5: #3b28cc;
+    --color-blue-4: #2667ff;
+    --color-blue-3: #3f8efc;
+    --color-blue-2: #87bfff;
+    --color-blue-1: #add7f6; 
+    --color-white: #ffff;
+    --color-black: #000000;
+    --body-gradient: linear-gradient(45deg,
+            hsl(162deg 97% 37%) 0%,
+            hsl(170deg 100% 36%) 7%,
+            hsl(177deg 100% 36%) 14%,
+            hsl(182deg 97% 37%) 21%,
+            hsl(174deg 100% 36%) 29%,
+            hsl(160deg 100% 37%) 37%,
+            hsl(143deg 97% 37%) 46%,
+            hsl(174deg 100% 34%) 55%,
+            hsl(195deg 100% 39%) 64%,
+            hsl(203deg 97% 37%) 73%,
+            hsl(195deg 100% 39%) 82%,
+            hsl(169deg 100% 34%) 91%,
+            hsl(122deg 97% 37%) 100%);
+
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+.bg-blue {
+    background-image: var(--body-gradient);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border-color: var(--color-white);
+
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.navbar-brand { 
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: hsl(203deg 97% 37%) !important;
+}
+.navbar-toggler:hover {
+    border-color: hsl(203deg 97% 37%) !important;
+}
+
+.container h2 {
+    font-weight: 700;
+}
+.container p{
+    font-weight: 500 !important;
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
